@@ -1,0 +1,115 @@
+/* DropDownMenu Style */
+
+.l1{
+	position:relative;
+	list-style:none;
+	text-decoration:none;
+	display:inline-block;
+	background-color:rgba(0,0,0, .1);
+	box-shadow: 0px 1px 0px 0px grey;
+	width:120px;
+}
+
+.li_1{
+	padding-right:100px;
+	left:100px;
+}
+.li_2{
+	position:relative;
+	top:-60px;
+	left:220px;
+	padding-right:100px;
+}
+.li_3{
+	position:relative;
+	top:-60px;
+	left:220px;
+	padding-right:100px;
+}
+.li_4{
+	position:relative;
+	top:-60px;
+	left:220px;
+	padding-right:100px;
+}
+
+.u_1{
+	position:absolute;
+	right:0px;
+	display:none;
+}
+.u_2{
+	position:absolute;
+	right:0px;
+	display:none;
+}
+.u_3{
+	position:absolute;
+	right:0px;
+	display:none;
+}
+.u_4{
+	position:absolute;
+	right:0px;
+	display:none;
+}
+.n_pos{
+	margin:0;
+	padding:0;
+	float:left;
+}
+
+.container{
+	width:100%;
+	height:60px;
+	position:absolute;
+	margin:0 auto;
+	background:rgb(0,0,0);
+	box-shadow: 0px 3px 5px 0px grey;
+}
+.mainmenu{
+	margin:0 auto;	
+}
+body{
+	margin:0;
+	padding:0;
+	background-color:rgba(255,255,255);
+	font-family: 'Monserrat', san-serif;
+}
+a{
+	display:block;
+	padding:0 10px;
+	text-decoration:none;
+	color:white;
+	line-height:60px;
+	font-size:18px;
+}
+
+/*Mouse Over*/
+
+.l1:hover{
+	background-color:#00CED1;
+}
+.li_1:hover{
+	background-color:#00FFFF;
+}
+.l_hover:hover .u_1, .a{
+	color:black;
+	display:block;
+}
+.l_hover_1:hover .u_2, .a{
+	color:black;
+	display:block;
+}
+.l_hover_2:hover .u_3, .a{
+	color:black;
+	display:block;
+}
+.l_hover_3:hover .u_4, .a{
+	color:black;
+	display:block;
+}
+
+
+
+
